@@ -42,7 +42,7 @@ export default function Header() {
       <header className={`sticky-top border-bottom bg-white ${styles.wrap}`}>
         <div className="d-flex align-items-center h-100 container-lg position-relative ">
           <Image
-            src="/images/logo.png"
+            src="../public/images/logo.png"
             height={95}
             width={95}
             alt="Logo"
@@ -50,7 +50,7 @@ export default function Header() {
             priority
           />
           <Image
-            src="/images/logo.png"
+            src="../public/images/logo.png"
             height={65}
             width={65}
             alt="Logo"
@@ -89,14 +89,14 @@ export default function Header() {
           >
             {sidebarToggle ? (
               <Image
-                src="/images/close.svg"
+                src="../public/images/close.svg"
                 height={14}
                 width={14}
                 alt="closeMenuIcon "
               />
             ) : (
               <Image
-                src="/images/hamburger.svg"
+                src="../public/images/hamburger.svg"
                 height={12}
                 width={18}
                 alt="menuIcon"

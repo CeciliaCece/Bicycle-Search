@@ -115,7 +115,7 @@ export default function search({ datas }) {
         }`}
       >
         <Image
-          src="/images/search.svg"
+          src="../public/images/search.svg"
           height={14}
           width={14}
           alt="searchIcon"
@@ -130,10 +130,10 @@ export default function search({ datas }) {
         }`}
       >
         <Image
-          src="/images/delete.svg"
+          src="../public/images/delete.svg"
           height={14}
           width={14}
-          alt="seletIcon"
+          alt="deleteIcon"
           className={styles.deleteIcon}
         />
       </Link>
