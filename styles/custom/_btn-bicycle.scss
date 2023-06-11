@@ -1,0 +1,22 @@
+@mixin button-variant($bg-color, $sec-bg-color, $color, $sec-color) {
+  --#{$prefix}btn-color: #{$color};
+  --#{$prefix}btn-bg: #{$bg-color};
+  --#{$prefix}btn-border-color: #{$bg-color};
+  --#{$prefix}btn-hover-color: #{$sec-color};
+  --#{$prefix}btn-hover-bg: #{$sec-bg-color};
+  --#{$prefix}btn-hover-border-color: #{$color};
+  --#{$prefix}btn-focus-shadow-rgb: #{$bg-color};
+  --#{$prefix}btn-active-color: #{$color};
+  --#{$prefix}btn-active-bg: #{$bg-color};
+  --#{$prefix}btn-active-border-color: #{$color};
+  --#{$prefix}btn-active-shadow: #{$color};
+  --#{$prefix}btn-disabled-color: #{$color};
+  --#{$prefix}btn-disabled-bg: #{$color};
+  --#{$prefix}btn-disabled-border-color: #{$color};
+}
+.btn-bicycle {
+  @include button-variant(#b5cc22, #c4dc2e, #ffffff, #677510);
+}
+.btn-login {
+  @include button-variant(#ffffff, #ffffff, #b5cc22, #677510);
+}

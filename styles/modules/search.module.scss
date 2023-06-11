@@ -1,0 +1,29 @@
+.searchIcon {
+  margin-right: 27px;
+  margin-bottom: 2px;
+}
+.deleteIcon {
+  margin-right: 16px;
+}
+
+.list {
+  border-radius: 8px;
+  padding: 0.5rem;
+  list-style: none;
+  background-color: #f6f6f6;
+  max-height: 14.5rem;
+  overflow-y: scroll;
+  display: none;
+  li {
+    :hover {
+      color: #b5cc22;
+    }
+  }
+  a {
+    padding: 0.5rem 0.5rem;
+    text-decoration: none;
+    color: #323232;
+    display: block;
+    width: 100%;
+  }
+}

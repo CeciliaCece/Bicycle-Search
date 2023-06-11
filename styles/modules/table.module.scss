@@ -1,0 +1,65 @@
+.layout {
+  overflow-x: auto;
+}
+
+.table {
+  border-collapse: separate;
+  border-spacing: 0;
+  text-align: center;
+  min-width: 960px;
+  width: 100%;
+
+  $bicycle-border-radius: 28px;
+  $bicycle-border-width: 0.5px;
+  $bicycle-border-color: #aeaeae;
+
+  th {
+    background-color: #b5cc22 !important;
+    color: #fff !important;
+    font-size: 1.125rem;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    height: 4.5rem;
+    vertical-align: middle;
+    min-width: 9rem;
+  }
+  td {
+    line-height: 1.5 !important;
+  }
+
+  /*左上 左下 右上 右下*/
+  tr:first-child th:first-child {
+    border-top-left-radius: $bicycle-border-radius;
+  }
+  tr:last-child td:first-child {
+    border-bottom-left-radius: $bicycle-border-radius;
+  }
+  tr:first-child th:last-child {
+    border-top-right-radius: $bicycle-border-radius;
+  }
+  tr:last-child td:last-child {
+    border-bottom-right-radius: $bicycle-border-radius;
+  }
+
+  tr th {
+    border-top: $bicycle-border-width solid $bicycle-border-color;
+  }
+  tr th:last-child,
+  tr td:last-child {
+    border-right: $bicycle-border-width solid $bicycle-border-color;
+  }
+
+  tr:last-child td {
+    border-bottom: $bicycle-border-width solid $bicycle-border-color;
+  }
+  tr th:first-child,
+  tr td:first-child {
+    border-left: $bicycle-border-width solid $bicycle-border-color;
+  }
+}
+
+.longTd {
+  word-wrap: break-all;
+  text-align: start;
+  max-width: 28.5rem;
+}

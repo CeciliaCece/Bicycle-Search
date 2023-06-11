@@ -1,0 +1,32 @@
+.wrap {
+  margin-right: -1.7rem;
+}
+.maxWidth {
+  max-width: 29.25rem;
+}
+.eachCheck {
+  display: flex !important;
+  align-items: center;
+  margin-left: 0.75rem;
+  height: 2.5rem;
+  label {
+    line-height: 1.33;
+    margin-left: 1rem;
+    padding-right: 0.55rem;
+  }
+  input {
+    margin: 0;
+  }
+}
+@media (min-width: 532px) {
+  .eachCheck {
+    label {
+      padding-right: 1.6rem;
+    }
+  }
+}
+@media (min-width: 1024px) {
+  .wrap {
+    max-width: 31rem;
+  }
+}

@@ -1,0 +1,25 @@
+.wrap {
+  margin: 0 2rem;
+}
+
+.img {
+  margin-top: 7rem;
+}
+
+.filterArea {
+  min-height: 18rem;
+}
+
+.maxWidth {
+  max-width: 29.25rem;
+}
+@media (min-width: 1024px) {
+  .wrap {
+    margin: 0;
+  }
+}
+@media (min-width: 1280px) {
+  .img {
+    margin-right: 4.5rem;
+  }
+}

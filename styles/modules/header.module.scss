@@ -1,0 +1,16 @@
+.wrap {
+  height: 4.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  z-index: 5;
+}
+.toggleIcon {
+  :hover {
+    opacity: 0.5;
+  }
+}
+@media (min-width: 1024px) {
+  .wrap {
+    height: 6.5rem;
+  }
+}

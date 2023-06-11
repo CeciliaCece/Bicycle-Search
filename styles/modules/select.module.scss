@@ -1,0 +1,9 @@
+.btn {
+  background-color: #f6f6f6 !important;
+  color: #aeaeae !important;
+  width: 100%;
+  @media (min-width: 532px) {
+    width: 11rem;
+    margin-right: 1rem;
+  }
+}
