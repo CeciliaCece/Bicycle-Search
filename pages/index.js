@@ -79,8 +79,10 @@ export default function Home({ datas }) {
         </div>
         <Table datas={datas} />
       </div>
-      <div className="test-btn btn btn-primary">
-        <button type="button">test</button>
+      <div>
+        <button type="button" className="test-btn btn btn-primary">
+          test
+        </button>
       </div>
     </Layout>
   );
