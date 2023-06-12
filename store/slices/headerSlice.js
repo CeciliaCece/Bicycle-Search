@@ -13,7 +13,7 @@ export const headerSlice = createSlice({
     },
     {
       title: "站點資訊",
-      path: "/",
+      path: "https://ceciliacece.github.io/Bicycle-Search/",
     },
     {
       title: "最新消息",
