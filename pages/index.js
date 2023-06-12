@@ -65,7 +65,7 @@ export default function Home({ datas }) {
           </div>
           <div className={`d-none d-lg-block ${styles.img}`}>
             <Image
-              src="../public/images/figure.png"
+              src="/figure.png"
               height={169} //172 稍微修了大小
               width={492} //502 稍微修了大小
               alt="figure"
