@@ -102,7 +102,9 @@ export default function search({ datas }) {
       <div className="input-test">
         <input
           type="text"
-          className={`search-input form-control ${color && "text-primary"}`}
+          className={`search-input form-control ${styles.maxHeight} ${
+            color && "text-primary"
+          }`}
           placeholder="搜尋站點"
           value={value}
           onChange={handleChange}
