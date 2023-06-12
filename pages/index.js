@@ -61,14 +61,6 @@ export default function Home({ datas }) {
               <Select />
               <Search datas={datas} />
             </div>
-            <div className="d-flex flex-row">
-              <div className="test-btn btn btn-primary">選擇</div>
-              <button className="test-btn btn btn-primary">選擇</button>
-              <input
-                type="text"
-                className="search-input input-test input-test2"
-              />
-            </div>
 
             <Checkbox />
           </div>
