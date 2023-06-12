@@ -16,12 +16,14 @@ input {
   appearance: none;
 }
 .test-btn {
-  font-size: 18px;
-  line-height: 20px;
+  font-size: 18px !important;
+  line-height: 20px !important;
   width: 500;
   padding: 10px 16px !important;
 }
 .search-input {
+  font-size: 18px !important;
+  line-height: 20px !important;
   padding: 10px 16px !important;
 }
 .fw-400 {
