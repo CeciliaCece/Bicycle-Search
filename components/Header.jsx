@@ -19,15 +19,11 @@ export default function Header() {
     return state.controls;
   });
   const router = useRouter();
-  const [path, setPath] = useState(
-    "https://ceciliacece.github.io/Bicycle-Search/"
-  );
+  const [path, setPath] = useState("/");
   const [sidebarToggle, setSidebarToggle] = useState(false);
 
   useEffect(() => {
     if (router.pathname !== "/[path]") {
-      if (router.pathname === "/")
-        setPath("https://ceciliacece.github.io/Bicycle-Search/");
       setPath(router.pathname);
       dispatch(updateCurrentPath(router.pathname));
     }
