@@ -61,11 +61,7 @@ export default function Home({ datas }) {
               <Select />
               <Search datas={datas} />
             </div>
-            <div>
-              <button type="button" className="test-btn btn btn-primary">
-                test
-              </button>
-            </div>
+            <div className="test-btn btn btn-primary">test</div>
             <Checkbox />
           </div>
           <div
