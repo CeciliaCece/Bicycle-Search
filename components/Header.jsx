@@ -24,7 +24,7 @@ export default function Header() {
 
   useEffect(() => {
     if (router.pathname !== "/[path]") {
-      if (router.pathname === "/") setPath("//");
+      //if (router.pathname === "/") setPath("//");
       setPath(router.pathname);
       dispatch(updateCurrentPath(router.pathname));
     }
@@ -45,7 +45,7 @@ export default function Header() {
           <div className={`position-absolute bottom-0 start-0 ${styles.logo}`}>
             <Image
               //src="/logo.png"
-              src="./logo.png"
+              src="/Bicycle-Search/logo.png"
               fill
               alt="Logo"
               priority
@@ -85,7 +85,7 @@ export default function Header() {
             <div className={!sidebarToggle && "d-none"}>
               <Image
                 //src="/close.svg"
-                src="./close.svg"
+                src="./Bicycle-Search/close.svg"
                 height={14}
                 width={14}
                 alt="closeMenuIcon "
