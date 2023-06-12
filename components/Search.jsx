@@ -114,6 +114,7 @@ export default function search({ datas }) {
       >
         <Image
           src="./search.svg"
+          //src="/search.svg"
           height={14}
           width={14}
           alt="searchIcon"
@@ -129,6 +130,7 @@ export default function search({ datas }) {
       >
         <Image
           src="./delete.svg"
+          //src="/delete.svg"
           height={14}
           width={14}
           alt="deleteIcon"

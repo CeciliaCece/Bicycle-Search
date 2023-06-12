@@ -43,8 +43,8 @@ export default function Header() {
         <div className="d-flex align-items-center h-100 container-lg position-relative ">
           <div className={`position-absolute bottom-0 start-0 ${styles.logo}`}>
             <Image
-              src="/logo.png"
-              //src="./logo.png"
+              //src="/logo.png"
+              src="./logo.png"
               fill
               alt="Logo"
               priority
@@ -83,16 +83,16 @@ export default function Header() {
           >
             {sidebarToggle ? (
               <Image
-                src="/close.svg"
-                //src="./close.svg"
+                //src="/close.svg"
+                src="./close.svg"
                 height={14}
                 width={14}
                 alt="closeMenuIcon "
               />
             ) : (
               <Image
-                src="/hamburger.svg"
-                //src="./hamburger.svg"
+                //src="/hamburger.svg"
+                src="./hamburger.svg"
                 height={12}
                 width={18}
                 alt="menuIcon"

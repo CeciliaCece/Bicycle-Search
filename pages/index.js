@@ -66,8 +66,8 @@ export default function Home({ datas }) {
           <div className={`position-relative ${styles.imgWrap}`}>
             <div className={`position-absolute bottom-0 ${styles.imgLayout}`}>
               <Image
-                src="/figure.png"
-                //src="./figure.png"
+                //src="/figure.png"
+                src="./figure.png"
                 fill
                 alt="figure"
                 className={`d-none d-lg-block ${styles.img}`}
