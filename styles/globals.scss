@@ -12,8 +12,11 @@ h1 {
     padding: 2rem 0;
   }
 }
-button {
-  @include experimental(appearance, none);
+.test-btn {
+  font-size: 18px;
+  line-height: 20px;
+  width: 500;
+  padding: 10px 16px;
 }
 .fw-400 {
   font-weight: 400;
