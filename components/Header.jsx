@@ -41,23 +41,17 @@ export default function Header() {
     <>
       <header className={`sticky-top border-bottom bg-white ${styles.wrap}`}>
         <div className="d-flex align-items-center h-100 container-lg position-relative ">
-          <Image
-            src="./logo.png"
-            height={95}
-            width={95}
-            alt="Logo"
-            className="me-8 d-none d-lg-inline mt-auto"
-            priority
-          />
-          <Image
-            src="./logo.png"
-            height={65}
-            width={65}
-            alt="Logo"
-            className="d-lg-none mt-auto"
-            priority
-          />
-          <div>
+          <div className={`position-absolute bottom-0 start-0 ${styles.logo}`}>
+            <Image
+              src="/logo.png"
+              //src="./logo.png"
+              fill
+              alt="Logo"
+              priority
+            />
+          </div>
+
+          <div className={styles.navs}>
             {headerDatas.map((h, index) => (
               <Link
                 key={index}
@@ -89,14 +83,16 @@ export default function Header() {
           >
             {sidebarToggle ? (
               <Image
-                src="./close.svg"
+                src="/close.svg"
+                //src="./close.svg"
                 height={14}
                 width={14}
                 alt="closeMenuIcon "
               />
             ) : (
               <Image
-                src="./hamburger.svg"
+                src="/hamburger.svg"
+                //src="./hamburger.svg"
                 height={12}
                 width={18}
                 alt="menuIcon"

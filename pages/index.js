@@ -63,14 +63,16 @@ export default function Home({ datas }) {
             </div>
             <Checkbox />
           </div>
-          <div className={`d-none d-lg-block ${styles.img}`}>
-            <Image
-              src="./figure.png"
-              height={169} //172 稍微修了大小
-              width={492} //502 稍微修了大小
-              alt="figure"
-              priority
-            />
+          <div className={`position-relative ${styles.imgWrap}`}>
+            <div className={`position-absolute bottom-0 ${styles.imgLayout}`}>
+              <Image
+                src="/figure.png"
+                //src="./figure.png"
+                fill
+                alt="figure"
+                className={`d-none d-lg-block ${styles.img}`}
+              />
+            </div>
           </div>
         </div>
         <Table datas={datas} />

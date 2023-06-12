@@ -98,12 +98,10 @@ export default function search({ datas }) {
   }, [filtersData.searchValue]);
 
   return (
-    <div className="position-relative mb-2">
+    <div className="position-relative mb-2 w-100">
       <input
         type="text"
-        className={`search-input form-control ${styles.input} ${
-          color && "text-primary"
-        }`}
+        className={`search-input form-control ${color && "text-primary"}`}
         placeholder="搜尋站點"
         value={value}
         onChange={handleChange}

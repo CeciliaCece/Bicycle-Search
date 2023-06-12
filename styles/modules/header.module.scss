@@ -9,8 +9,20 @@
     opacity: 0.5;
   }
 }
+.logo {
+  height: 65px;
+  width: 65px;
+}
+.navs {
+  margin-left: 8.4rem;
+}
 @media (min-width: 1024px) {
   .wrap {
     height: 6.5rem;
+  }
+
+  .logo {
+    height: 95px;
+    width: 95px;
   }
 }

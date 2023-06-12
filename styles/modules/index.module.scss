@@ -1,11 +1,17 @@
 .wrap {
   margin: 0 2rem;
 }
-
-.img {
-  margin-top: 7rem;
+.imgWrap {
+  height: auto;
+  width: calc(100% - 32rem);
 }
-
+.imgLayout {
+  height: calc(100% - 7rem);
+  width: 100%;
+}
+.img {
+  object-fit: contain;
+}
 .filterArea {
   min-height: 18rem;
 }
@@ -19,7 +25,8 @@
   }
 }
 @media (min-width: 1280px) {
-  .img {
+  .imgLayout {
     margin-right: 4.5rem;
+    width: 574px;
   }
 }
