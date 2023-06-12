@@ -61,7 +61,12 @@ export default function Home({ datas }) {
               <Select />
               <Search datas={datas} />
             </div>
-            <div className="test-btn btn btn-primary">test</div>
+            <div>
+              <div className="test-btn btn btn-primary">選擇</div>
+              <button className="btn btn-primary">選擇</button>
+              <input type="text" className="search-input" />
+            </div>
+
             <Checkbox />
           </div>
           <div
