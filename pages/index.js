@@ -61,6 +61,11 @@ export default function Home({ datas }) {
               <Select />
               <Search datas={datas} />
             </div>
+            <div>
+              <button type="button" className="test-btn btn btn-primary">
+                test
+              </button>
+            </div>
             <Checkbox />
           </div>
           <div
@@ -78,11 +83,6 @@ export default function Home({ datas }) {
           </div>
         </div>
         <Table datas={datas} />
-      </div>
-      <div>
-        <button type="button" className="test-btn btn btn-primary">
-          test
-        </button>
       </div>
     </Layout>
   );
