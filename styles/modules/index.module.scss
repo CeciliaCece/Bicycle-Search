@@ -12,9 +12,6 @@
 .img {
   object-fit: contain;
 }
-.filterArea {
-  min-height: 18rem;
-}
 
 .maxWidth {
   max-width: 29.25rem;
@@ -22,6 +19,9 @@
 @media (min-width: 1024px) {
   .wrap {
     margin: 0;
+  }
+  .filterArea {
+    min-height: 18rem;
   }
 }
 @media (min-width: 1280px) {
