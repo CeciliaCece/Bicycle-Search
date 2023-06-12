@@ -69,7 +69,7 @@ export default function Home({ datas }) {
             <div className={`position-absolute bottom-0 ${styles.imgLayout}`}>
               <Image
                 //src="/figure.png"
-                src="./figure.png"
+                src="/Bicycle-Search/figure.png"
                 fill
                 alt="figure"
                 className={` ${styles.img}`}

@@ -45,7 +45,33 @@ export default function select({}) {
   }, [filtersData.selectBtn]);
 
   return (
-    <div className={`dropdown ${styles.layout}`}>
+    <div className={`${styles.layout}`}>
+      {/* <div className={`dropdown ${styles.layout}`}>
+      <button
+        className={`btn btn-info dropdown-toggle text-start d-flex justify-content-between align-items-center ${styles.btn}`}
+        type="button"
+        data-bs-toggle="dropdown"
+        aria-expanded="false"
+      >
+        <span className={`fw-500 ${selected && "text-secondary"}`}>
+          {filtersData.selectBtn}
+        </span>
+      </button>
+      <ul className="dropdown-menu dd-list mt-3 fw-400">
+        {regionsData.map((county, index) => (
+          <li key={"c" + index}>
+            <Link
+              className={`dropdown-item ${index === weight ? "fw-500" : ""}`}
+              href="#"
+              onClick={handleClick}
+              id={"select" + index}
+            >
+              {county.county}
+            </Link>
+          </li>
+        ))}
+      </ul>
+    </div> */}
       <button
         className={`btn btn-info dropdown-toggle text-start d-flex justify-content-between align-items-center ${styles.btn}`}
         type="button"

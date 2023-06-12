@@ -85,7 +85,7 @@ export default function Header() {
             <div className={!sidebarToggle && "d-none"}>
               <Image
                 //src="/close.svg"
-                src="./Bicycle-Search/close.svg"
+                src="/Bicycle-Search/close.svg"
                 height={14}
                 width={14}
                 alt="closeMenuIcon "
@@ -94,7 +94,7 @@ export default function Header() {
             <div className={sidebarToggle && "d-none"}>
               <Image
                 //src="/hamburger.svg"
-                src="./hamburger.svg"
+                src="/Bicycle-Search/hamburger.svg"
                 height={12}
                 width={18}
                 alt="menuIcon"

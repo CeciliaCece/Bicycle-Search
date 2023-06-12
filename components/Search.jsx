@@ -113,7 +113,7 @@ export default function search({ datas }) {
         }`}
       >
         <Image
-          src="./search.svg"
+          src="/Bicycle-Search/search.svg"
           //src="/search.svg"
           height={14}
           width={14}
@@ -129,7 +129,7 @@ export default function search({ datas }) {
         }`}
       >
         <Image
-          src="./delete.svg"
+          src="/Bicycle-Search/delete.svg"
           //src="/delete.svg"
           height={14}
           width={14}
