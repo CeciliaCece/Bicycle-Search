@@ -1,8 +1,8 @@
 .btn {
-  -webkit-appearance: none;
   background-color: #f6f6f6 !important;
   color: #aeaeae !important;
   width: 100%;
+  padding: 0.625rem 1rem !important;
   @media (min-width: 532px) {
     width: 11rem;
     margin-right: 1rem;
