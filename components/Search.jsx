@@ -99,14 +99,16 @@ export default function search({ datas }) {
 
   return (
     <div className="position-relative mb-2 w-100">
-      <input
-        type="text"
-        className={`search-input form-control ${color && "text-primary"}`}
-        placeholder="搜尋站點"
-        value={value}
-        onChange={handleChange}
-        onFocus={() => setFloatList(true)}
-      />
+      <div className="input-test">
+        <input
+          type="text"
+          className={`search-input form-control ${color && "text-primary"}`}
+          placeholder="搜尋站點"
+          value={value}
+          onChange={handleChange}
+          onFocus={() => setFloatList(true)}
+        />
+      </div>
       <div
         className={`position-absolute top-50 end-0 translate-middle-y ${
           value && "d-none"

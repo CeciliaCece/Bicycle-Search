@@ -21,10 +21,14 @@ input {
   width: 500;
   padding: 10px 16px !important;
 }
+.input-test {
+  max-height: 40px;
+}
 .search-input {
   font-size: 18px !important;
   line-height: 20px !important;
   padding: 10px 16px !important;
+  border: 0px;
 }
 .fw-400 {
   font-weight: 400;
