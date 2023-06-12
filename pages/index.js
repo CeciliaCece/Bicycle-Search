@@ -79,7 +79,7 @@ export default function Home({ datas }) {
         </div>
         <Table datas={datas} />
       </div>
-      <div className="test-btn">
+      <div className="test-btn btn btn-primary">
         <button type="button">test</button>
       </div>
     </Layout>
