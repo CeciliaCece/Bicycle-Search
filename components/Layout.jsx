@@ -11,10 +11,6 @@ export default function Layout({ children }) {
           content="width=device-width,initial-scale=1"
         ></meta>
         <meta name="description" content="next-practice" />
-        <meta
-          http-equiv="Permissions-Policy"
-          content="interest-cohort=()"
-        ></meta>
         <title>Bicycle Search</title>
         <link
           href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap"
