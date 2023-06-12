@@ -77,6 +77,20 @@ export default function Home({ datas }) {
             </div>
           </div>
         </div>
+        <div>
+          <button className={`btn btn-info`} type="button">
+            test
+          </button>
+        </div>
+        <div className={`dropdown`}>
+          <button
+            className={`btn btn-info dropdown-toggle`}
+            type="button"
+            data-bs-toggle="dropdown"
+          >
+            ttt
+          </button>
+        </div>
         <Table datas={datas} />
       </div>
     </Layout>

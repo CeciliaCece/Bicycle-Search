@@ -24,6 +24,7 @@ export default function Header() {
 
   useEffect(() => {
     if (router.pathname !== "/[path]") {
+      if (router.pathname === "/") setPath("//");
       setPath(router.pathname);
       dispatch(updateCurrentPath(router.pathname));
     }
