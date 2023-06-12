@@ -81,7 +81,7 @@ export default function Header() {
               dispatch(updateSidebarToggle(sidebarToggle));
             }}
           >
-            {sidebarToggle ? (
+            <div className={!sidebarToggle && "d-none"}>
               <Image
                 //src="/close.svg"
                 src="./close.svg"
@@ -89,7 +89,8 @@ export default function Header() {
                 width={14}
                 alt="closeMenuIcon "
               />
-            ) : (
+            </div>
+            <div className={sidebarToggle && "d-none"}>
               <Image
                 //src="/hamburger.svg"
                 src="./hamburger.svg"
@@ -97,7 +98,7 @@ export default function Header() {
                 width={18}
                 alt="menuIcon"
               />
-            )}
+            </div>
           </div>
         </div>
         <Sidebar pathname={path} />
